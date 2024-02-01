@@ -3,11 +3,11 @@
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "http://localhost:8000/api/$1"
+        "dest": "https://server-shop-9uv4.onrender.com/api/$1"
       },
       {
         "src": "/uploads/(.*)",
-        "dest": "http://localhost:8000/uploads/$1"
+        "dest": "https://server-shop-9uv4.onrender.com/uploads/$1"
       },
       {
         "src": "/(.*)",
